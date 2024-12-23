@@ -4,7 +4,7 @@ use warnings;
 
 
 if (@ARGV < 1) {
-    die "用法: perl rename_vcf_ids.pl input.vcf > output.vcf\n";
+    die " perl rename_vcf_ids.pl input.vcf > output.vcf\n";
 }
 
 my $filename = $ARGV[0];
